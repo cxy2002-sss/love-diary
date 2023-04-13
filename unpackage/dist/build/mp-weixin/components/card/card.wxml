@@ -1,0 +1,1 @@
+<view class="cardItem"><view class="cardTitle"><image src="{{item.image}}" mode></image><view>{{''+item.title+''}}</view></view><view class="set">{{''+(item.content==''?"点击设置":item.content)+''}}</view></view>

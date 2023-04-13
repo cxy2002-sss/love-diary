@@ -1,0 +1,59 @@
+.title{
+	width: 750rpx;
+	text-align: center;
+	font-size: 40rpx;
+	view:nth-child(2){
+		width: 60rpx;
+		margin: 0 auto;
+		border-radius: 50rpx;
+		border: 8rpx solid #6365b7;
+	}
+}
+.zeroEvent{
+	height: 1000rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	view{
+		color: #adadad;
+		font-size: 40rpx;
+		width: 600rpx;
+	}
+	image{
+		opacity: 0.5;
+		width: 500rpx;
+		height: 500rpx;
+	}
+}
+.DayContent{
+			margin: 20rpx;
+			background: white;
+			border-radius: 30rpx;
+			.dayTitle{
+				display: flex;
+				align-items: center;
+				margin: 20rpx;
+				.bigTitle{
+					color: #6365b7;
+					font-size: 40rpx;
+					margin-right: 25rpx;
+				}
+			}
+			.content{
+				margin: 20rpx;
+				view:nth-child(2){
+					font-size: 20rpx;
+				}
+			}
+			.images{
+				margin: 10rpx;
+				display: flex;
+				flex-wrap: wrap;
+				image{
+					margin: 10rpx;
+					flex: 1;
+				}
+			}
+			
+		}

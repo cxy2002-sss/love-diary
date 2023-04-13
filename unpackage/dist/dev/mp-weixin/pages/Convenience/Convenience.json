@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "便利贴",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "card": "/components/card/card"
+  }
+}

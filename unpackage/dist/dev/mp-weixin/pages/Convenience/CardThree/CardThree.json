@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "备忘录",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-fab": "/uni_modules/uni-fab/components/uni-fab/uni-fab",
+    "change-item": "/pages/Convenience/CardThree/component/changeItem",
+    "add-item": "/pages/Convenience/CardThree/component/addItem"
+  }
+}

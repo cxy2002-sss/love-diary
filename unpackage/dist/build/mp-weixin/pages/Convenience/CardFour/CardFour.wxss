@@ -1,0 +1,1 @@
+page{height:100%;overflow:hidden}.title{margin:30rpx;color:#a6a6a6}.content{padding:20rpx;width:710rpx;height:50rpx;background:#fff;display:flex;justify-content:space-between;align-items:center}.content .contentTitle{display:flex;align-items:center}.content .contentTitle image{width:30rpx;height:30rpx}.content .contentDay{display:flex;align-items:center;color:#a6a6a6}

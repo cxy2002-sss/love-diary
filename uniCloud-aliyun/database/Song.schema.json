@@ -1,0 +1,32 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["artistsname","name","picurl","url"],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"artistsname":{
+			"bsonType": "string",
+			"title": "作者"
+		},
+		"name":{
+			"bsonType": "string",
+			"title": "歌名"
+		},
+		"picurl":{
+			"bsonType": "string",
+			"title": "图片路径"
+		},
+		"url":{
+			"bsonType": "string",
+			"title": "音乐路径"
+		}
+	}
+}

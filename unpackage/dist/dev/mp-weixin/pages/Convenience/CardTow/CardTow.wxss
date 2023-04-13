@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.setDay {
+  width: 750rpx;
+  height: 100rpx;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+button {
+  background: #6365b7;
+  color: white;
+}
+

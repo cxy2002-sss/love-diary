@@ -1,0 +1,1 @@
+.SongInfo{width:700rpx;margin:auto;margin-bottom:20rpx;border-radius:30rpx;box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);display:flex;justify-content:center}.SongInfo view{margin:20rpx}

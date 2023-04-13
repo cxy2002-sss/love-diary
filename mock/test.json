@@ -1,0 +1,26 @@
+[{
+		"icon": "../../static/icon/捧花.png",
+		"text": "心里话",
+		"path": ""
+	},
+	{
+		"icon": "../../static/icon/信件.png",
+		"text": "未来信件",
+		"path": ""
+	},
+	{
+		"icon": "../../static/icon/铃铛.png",
+		"text": "宠物公寓",
+		"path": ""
+	},
+	{
+		"icon": "../../static/icon/誓言.png",
+		"text": "恋爱答案书",
+		"path": ""
+	},
+	{
+		"icon": "../../static/icon/礼盒.png",
+		"text": "情侣礼物",
+		"path": ""
+	}
+]

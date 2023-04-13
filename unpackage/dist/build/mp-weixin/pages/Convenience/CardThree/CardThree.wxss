@@ -1,0 +1,1 @@
+page{height:100%;overflow:hidden}.all{display:flex;flex-direction:column;justify-content:center;align-items:center;position:relative}.all .memos{width:700rpx;background-color:#fff;margin-bottom:30rpx;border-radius:30rpx;color:#6365b7;box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19)}.all .memos .title{text-align:center}.all .memos .content{margin-left:20rpx}

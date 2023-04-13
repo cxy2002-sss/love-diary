@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "情侣必做100件事",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-fab": "/uni_modules/uni-fab/components/uni-fab/uni-fab"
+  }
+}

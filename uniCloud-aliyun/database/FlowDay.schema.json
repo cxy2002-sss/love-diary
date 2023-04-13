@@ -1,0 +1,28 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": ["day","flowNum","acheNum"],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"day":{
+			"bsonType": "string",
+			"title": "月经日期"
+		},
+		"flowNum":{
+			"bsonType": "int",
+			"title": "流量"
+		},
+		"acheNum":{
+			"bsonType": "int",
+			"title": "疼痛"
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "听歌",
+  "enablePullDownRefresh": true,
+  "navigationBarBackgroundColor": "#000000",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {}
+}

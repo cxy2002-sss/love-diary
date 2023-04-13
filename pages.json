@@ -1,0 +1,232 @@
+{
+	"pages": [
+		{
+			"path": "pages/Login/Login",
+			"style": {
+				"navigationBarTitleText": "登入",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/Home/Home",
+			"style": {
+				"navigationBarTitleText": "恋爱日",
+				"enablePullDownRefresh": true,
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/Convenience/Convenience",
+			"style": {
+				"navigationBarTitleText": "便利贴",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/HeardEvent/HeardEvent",
+			"style": {
+				"navigationBarTitleText": "心事",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/Find/Find",
+			"style": {
+				"navigationBarTitleText": "发现",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/My/My",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": true
+			}
+		}
+	    ,{
+            "path" : "pages/addDay/addDay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+        }
+        ,{
+            "path" : "pages/commemorationDay/commemorationDay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/updateDay/updateDay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/millionStuff/millionStuff",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "情侣必做100件事",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/stuffItem/stuffItem",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/addEvent/addEvent",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/eventItem/eventItem",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/updateEvent/updateEvent",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+			"path": "pages/detail/detail",
+			"style" :
+			{
+			    "navigationBarTitleText": "听歌",
+			    "enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#000000",
+				"navigationBarTextStyle": "white"
+			}
+		}
+        ,{
+            "path" : "pages/addLikeSong/addLikeSong",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/addSongList/addSongList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+		    "path" : "pages/Convenience/CardOne/CardOne",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "经期记录",
+		        "enablePullDownRefresh": false
+		    }
+		}
+        ,{
+            "path" : "pages/Convenience/CardTow/CardTow",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "Ta的生日",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+       
+        ,{
+            "path" : "pages/Convenience/CardThree/CardThree",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "备忘录",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/Convenience/CardFour/CardFour",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "倒数日",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/Convenience/CardFour/setCountDownDay/setCountDownDay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		},
+		"backgroundTextStyle":"dark"
+	},
+	"tabBar": {
+		"selectedColor": "#6466b8",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/Home/Home",
+				"iconPath": "static/icon/首页.png",
+				"selectedIconPath": "static/icon/首页(1).png"
+			},
+			{
+				"text": "便利贴",
+				"pagePath": "pages/Convenience/Convenience",
+				"iconPath": "static/icon/记录.png",
+				"selectedIconPath": "static/icon/记录(1).png"
+			},
+			{
+				"text": "心事",
+				"pagePath": "pages/HeardEvent/HeardEvent",
+				"iconPath": "static/icon/喜欢.png",
+				"selectedIconPath": "static/icon/喜欢(1).png"
+			},
+			{
+				"text": "发现",
+				"pagePath": "pages/Find/Find",
+				"iconPath": "static/icon/搜索.png",
+				"selectedIconPath": "static/icon/搜索(1).png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/My/My",
+				"iconPath": "static/icon/我的.png",
+				"selectedIconPath": "static/icon/我的(1).png"
+			}
+		]
+	}
+}

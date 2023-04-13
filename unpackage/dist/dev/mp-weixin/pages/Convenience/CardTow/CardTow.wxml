@@ -1,0 +1,1 @@
+<view><view class="setDay"><view>Ta的生日</view><picker mode="date" fields="day" data-event-opts="{{[['change',[['bindDateChange',['$event']]]]]}}" bindchange="__e"><view>{{date}}</view></picker></view><button data-event-opts="{{[['tap',[['getBack',['$event']]]]]}}" bindtap="__e">保存</button></view>

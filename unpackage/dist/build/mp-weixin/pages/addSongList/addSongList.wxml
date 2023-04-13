@@ -1,0 +1,1 @@
+<view><block wx:for="{{addSongInfo}}" wx:for-item="item" wx:for-index="index" wx:key="_id"><view class="SongInfo"><view>{{"音乐:"+item.name}}</view><view>{{"作者:"+item.artistsname}}</view></view></block></view>

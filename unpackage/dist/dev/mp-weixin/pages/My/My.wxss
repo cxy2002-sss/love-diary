@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page .all {
+  position: relative;
+  height: 1450rpx;
+}
+page .all .more {
+  width: 750rpx;
+  height: 100%;
+}
+page .all .more image {
+  position: absolute;
+  z-index: 2;
+  top: 440rpx;
+  left: 290rpx;
+  width: 200rpx;
+  height: 200rpx;
+  -webkit-animation: 2s linear infinite move;
+          animation: 2s linear infinite move;
+}
+page .all .more view {
+  position: absolute;
+  z-index: 2;
+  top: 650rpx;
+  left: 310rpx;
+  font-size: 40rpx;
+  color: white;
+  width: 200rpx;
+  height: 200rpx;
+}
+page .all .more::after {
+  content: '';
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+@-webkit-keyframes move {
+from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+@keyframes move {
+from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+}
+page .all .content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+page .all .content .title {
+  width: 500rpx;
+  font-size: 40rpx;
+  color: #6365b7;
+}
+page .all .content view:nth-child(2) {
+  margin: 20rpx 0;
+}
+page .all .content view:nth-child(2) button {
+  width: 500rpx;
+  color: white;
+  background: #6365b7;
+  border-radius: 40rpx;
+}
+page .all .content .select {
+  width: 500rpx;
+  background: #6365b7;
+  border-radius: 40rpx;
+}
+

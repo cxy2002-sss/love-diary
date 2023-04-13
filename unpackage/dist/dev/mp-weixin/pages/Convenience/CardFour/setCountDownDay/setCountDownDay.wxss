@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+page {
+  height: 100%;
+  overflow: hidden;
+}
+.title {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #a8a8a8;
+  background: white;
+}
+.title view {
+  margin: 20rpx;
+  width: 150rpx;
+}
+.setDay {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+}
+.setDay view:nth-child(1) {
+  margin: 20rpx;
+  width: 150rpx;
+}
+.setDay .day {
+  display: flex;
+  align-items: center;
+}
+.submit {
+  background-color: #6365b7;
+  color: white;
+  margin-top: 30rpx;
+}
+
